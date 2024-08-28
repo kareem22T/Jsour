@@ -37,9 +37,9 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h5 className="footer-heading">Quick Links</h5>
-          <a className="footer-link" href="jusoor.html">About Us</a>
-          <a className="footer-link" href="/contact">Contact Us</a>
-          <a className="footer-link" href="/solutions">Our Solutions</a>
+          <Link className="footer-link" to="/about">About Us</Link>
+          <Link className="footer-link" to="/contact">Contact Us</Link>
+          <Link className="footer-link" to="/solutions">Our Solutions</Link>
           <Link className="footer-link" to="/Terms-and-Conditions">Terms &amp; Condition</Link>
           <Link className="footer-link" to="/Privacy-policy">Privacy Policy</Link>
         </div>
